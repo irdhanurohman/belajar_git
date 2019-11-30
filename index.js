@@ -7,7 +7,11 @@ const mahasiswa = [
     nama:"azman",
     nim:12
   },
+  {
+     nama:"sandhika",
+     nim : 99
+ }
 
 ];
 
-console.log(mahasiswa[1].nama);
+console.log(mahasiswa[2].nama);
