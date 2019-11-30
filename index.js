@@ -114,3 +114,6 @@ mahasiswa.map(val => {
       console.log(`mahasiswa ${val.nama} punya job -> ${relationJobs(val._id)}`);
       console.log(`------------`);
 });
+
+
+thanks for azman abdlh for contribution
