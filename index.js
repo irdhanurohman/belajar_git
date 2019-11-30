@@ -48,6 +48,11 @@ const alamat = [
    }
 ];
 
+const gender = [
+   'laki',
+   'perempuan'
+];
+
 function relationMatkul(id)
 {
    return mataKuliah.filter(val => val._id == id)[0].title;
