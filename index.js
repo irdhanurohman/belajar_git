@@ -32,15 +32,36 @@ const mataKuliah = [
    },
 ]
 
+
+const alamat = [
+   {
+      title:"Galuggung",
+      _id:1
+   },
+   {
+      title:"Kb Cengkeh",
+      _id:3
+   },
+   {
+      title:"Batu Merah",
+      _id:2
+   }
+];
+
 function relationMatkul(id)
 {
    return mataKuliah.filter(val => val._id == id)[0].title;
 }
 
+function relationAlamat(id)
+{
+   return alamat.filter(val => val._id == id)[0].title;
+}
+
 
 // console.log(relationMatkul(1));
 mahasiswa.map(val => {
-   
-      console.log(`mahasiswa ${val.nama} punya matkul -> ${relationMatkul(val._id)}`);
+
+      console.log(`mahasiswa ${val.nama} punya alamat -> ${relationAlamat(val._id)}`);
       console.log(`------------`);
 });
